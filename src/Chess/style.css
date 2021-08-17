@@ -1,0 +1,70 @@
+.white {
+    background-color:	#eeeed2;
+}
+
+.black {
+    background-color:#769656;
+}
+
+td {
+    height: 14vh;
+    width: 11vw;
+    padding: 5px;
+    z-index: -1;
+}
+
+.piece {
+    font-size:200%;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+/* Modal CSS */
+.modal1-active {
+position:fixed;
+width: 100vw;
+height: 100vh;
+background-color: black;
+opacity: 0.5;
+display: none;
+z-index: 500;
+
+align-items: center;
+justify-content: center;
+
+}
+
+.modal1-inactive {
+    position: initial;
+    opacity: 1;
+    z-index: -2;
+    display: contents;
+}
+
+.modal2-active{
+    width: 50vw;
+    height: 25vh;
+    border: 1vw solid white;
+    background-color: white;
+    text-align: center;
+    padding: 5vw;
+    position:fixed;
+    display: flex;
+    opacity: 1;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    z-index: 501;
+}
+
+.modal2-inactive{
+    position: fixed;
+    z-index: -3;
+    display: contents;
+}
+
+button {
+    height: 35%;
+}
